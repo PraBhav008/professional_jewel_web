@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a0a0a">
+<script>document.documentElement.classList.add('js')</script>
+<link rel="preconnect" href="https://api.fontshare.com">
+<link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
+<link href="https://api.fontshare.com/v2/css?f[]=chillax@400,500,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<title>Contact — Aurelle</title>
+</head>
+<body>
+<header class="nav solid">
+  <a href="index.html" class="logo">AURELLE</a>
+  <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+  <nav class="links">
+    <a href="index.html">Home</a>
+    <a href="collections.html">Collections</a>
+    <a href="about.html">About</a>
+    <a href="bespoke.html">Bespoke</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+<main class="contact">
+  <div class="contact-grid">
+    <div class="info">
+      <p class="eyebrow">Contact</p>
+      <h1>Let’s talk jewelry</h1>
+      <p>We reply within one business day.</p>
+      <p>hello@aurelle.example<br>+00 000 000 0000</p>
+      <p>12 Example Street, City<br>Mon–Sat, 10:00–19:00</p>
+    </div>
+    <form id="contactForm">
+      <div class="row">
+        <label>Name<input name="name" type="text" autocomplete="name" required></label>
+        <label>Email<input name="email" type="email" autocomplete="email" required></label>
+      </div>
+      <label>Interested in
+        <select name="interest"><option>Rings</option><option>Necklaces</option><option>Earrings</option><option>Bracelets</option><option>Bespoke design</option><option>Repair or resizing</option></select>
+      </label>
+      <label>Message<textarea name="message" rows="5" required></textarea></label>
+      <button class="btn" type="submit">Send message</button>
+      <p class="ok" id="formOk" role="status" hidden>Thank you — we will be in touch soon.</p>
+    </form>
+  </div>
+  <div class="faq"><p class="eyebrow">FAQ</p><details><summary>How long does a bespoke piece take?</summary><p>Most pieces take 3–6 weeks from approved design to delivery.</p></details><details><summary>Do you offer resizing?</summary><p>Yes. Rings can be resized free of charge within 60 days of purchase.</p></details><details><summary>Are your stones certified?</summary><p>Every diamond over 0.30ct comes with an independent grading certificate.</p></details></div>
+</main>
+<footer class="footer">
+  <div class="foot-grid">
+    <div><a href="index.html" class="logo" style="opacity:1">AURELLE</a><p>Fine jewelry, made by hand and made to last. Demo website.</p></div>
+    <div><h4>Explore</h4><a href="collections.html">Collections</a><a href="about.html">About</a><a href="bespoke.html">Bespoke</a><a href="contact.html">Contact</a></div>
+    <div><h4>Visit</h4><p>12 Example Street, City</p><p>Mon–Sat, 10:00–19:00</p><p>hello@aurelle.example</p></div>
+  </div>
+  <p class="copy">© 2026 Aurelle. All rights reserved.</p>
+</footer>
+<script src="script.js"></script>
+<script src="site.js"></script>
+</body>
+</html>

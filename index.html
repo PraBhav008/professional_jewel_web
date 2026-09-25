@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a0a0a">
+<script>document.documentElement.classList.add('js')</script>
+<link rel="preconnect" href="https://api.fontshare.com">
+<link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
+<link href="https://api.fontshare.com/v2/css?f[]=chillax@400,500,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<title>Fine Jewelry — Aurelle</title>
+</head>
+<body>
+<header class="nav">
+  <a href="index.html" class="logo">AURELLE</a>
+  <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+  <nav class="links">
+    <a href="index.html">Home</a>
+    <a href="collections.html">Collections</a>
+    <a href="about.html">About</a>
+    <a href="bespoke.html">Bespoke</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+<main>
+  <section class="hero">
+    <!-- Add your video: videos/hero.mp4  |  poster: images/hero-poster.jpg -->
+    <video class="hero-video" autoplay muted loop playsinline preload="auto" poster="images/hero-poster.jpg">
+      <source src="videos/hero.mp4" type="video/mp4">
+    </video>
+    <div class="hero-shade"></div>
+    <button class="scroll-cue" id="scrollCue">Scroll down
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v16M5 13l7 7 7-7"/></svg>
+    </button>
+  </section>
+  <section class="section"><div class="wrap split">
+    <div class="reveal"><p class="eyebrow">Our promise</p><h2>Timeless pieces, made by hand</h2>
+      <p>Every Aurelle piece begins as a sketch and ends in the hands of a master goldsmith. We use certified stones and recycled gold, and we stand behind every setting.</p>
+      <div class="stats"><div><b>25+</b><span>Years of craft</span></div><div><b>100%</b><span>Certified stones</span></div><div><b>Lifetime</b><span>Care included</span></div></div></div>
+    <div class="ph reveal"><img src="images/about/workshop.jpg" alt="Our workshop" onerror="this.style.display='none'"></div>
+  </div></section>
+  <section id="collections" class="section collections">
+    <div class="wrap">
+      <p class="eyebrow">Collections</p>
+      <h2>Crafted to be held</h2>
+      <p class="lead">Drag the pieces around. Tap one for a little sparkle.</p>
+      <div class="stickers">
+        <!-- Add images in: images/collections/ -->
+        <div class="sticker" style="--dx:6%;--dy:10%;--mx:6%;--my:2%"><div class="ph"><img src="images/collections/rings.jpg" alt="Rings" draggable="false" onerror="this.style.display='none'"></div><span>Rings</span></div>
+        <div class="sticker" style="--dx:30%;--dy:42%;--mx:50%;--my:8%"><div class="ph"><img src="images/collections/necklaces.jpg" alt="Necklaces" draggable="false" onerror="this.style.display='none'"></div><span>Necklaces</span></div>
+        <div class="sticker" style="--dx:55%;--dy:6%;--mx:6%;--my:52%"><div class="ph"><img src="images/collections/earrings.jpg" alt="Earrings" draggable="false" onerror="this.style.display='none'"></div><span>Earrings</span></div>
+        <div class="sticker" style="--dx:77%;--dy:38%;--mx:50%;--my:58%"><div class="ph"><img src="images/collections/bracelets.jpg" alt="Bracelets" draggable="false" onerror="this.style.display='none'"></div><span>Bracelets</span></div>
+      </div>
+    </div>
+  </section>
+  <section class="section"><div class="wrap">
+    <p class="eyebrow">Featured</p><h2>Signature pieces</h2>
+    <div class="grid c4"><article class="card reveal" data-cat="rings"><div class="ph"><img src="images/products/solitaire-ring.jpg" alt="Solitaire Ring" loading="lazy" onerror="this.style.display='none'"></div><div class="meta"><h3>Solitaire Ring</h3><p>18k gold · Diamond</p><strong>$2,400</strong></div></article><article class="card reveal" data-cat="necklaces"><div class="ph"><img src="images/products/pendant-necklace.jpg" alt="Pendant Necklace" loading="lazy" onerror="this.style.display='none'"></div><div class="meta"><h3>Pendant Necklace</h3><p>18k gold · Diamond</p><strong>$1,200</strong></div></article><article class="card reveal" data-cat="earrings"><div class="ph"><img src="images/products/drop-earrings.jpg" alt="Drop Earrings" loading="lazy" onerror="this.style.display='none'"></div><div class="meta"><h3>Drop Earrings</h3><p>18k gold · Diamond</p><strong>$1,050</strong></div></article><article class="card reveal" data-cat="bracelets"><div class="ph"><img src="images/products/tennis-bracelet.jpg" alt="Tennis Bracelet" loading="lazy" onerror="this.style.display='none'"></div><div class="meta"><h3>Tennis Bracelet</h3><p>18k gold · Diamond</p><strong>$3,200</strong></div></article></div>
+    <p style="margin-top:2rem"><a href="collections.html" class="btn">View all collections</a></p>
+  </div></section>
+  <section class="section alt"><div class="wrap">
+    <p class="eyebrow">Why Aurelle</p><h2>Made with care, start to finish</h2>
+    <div class="grid c3"><div class="feat reveal"><i>01</i><h3>Ethically sourced</h3><p>Certified diamonds and recycled gold, traceable from source to setting.</p></div><div class="feat reveal"><i>02</i><h3>Handcrafted</h3><p>Each piece is finished by hand in our own workshop, never mass produced.</p></div><div class="feat reveal"><i>03</i><h3>Lifetime care</h3><p>Free cleaning, inspection and resizing advice for as long as you own it.</p></div></div>
+  </div></section>
+  <section class="section"><div class="wrap">
+    <p class="eyebrow">Kind words</p><h2>Loved by our clients</h2>
+    <div class="grid c3"><blockquote class="quote reveal"><p>“The ring arrived beautifully wrapped and fit perfectly. It feels like it was made just for me.”</p><cite>Anaya S.</cite></blockquote>
+<blockquote class="quote reveal"><p>“Honest advice, no pressure, and the quality is obvious the moment you hold it.”</p><cite>Rohan M.</cite></blockquote>
+<blockquote class="quote reveal"><p>“They redesigned my grandmother’s necklace into something I wear every day.”</p><cite>Meera P.</cite></blockquote></div>
+  </div></section>
+  <section class="section cta"><div class="wrap center">
+    <h2>Made for moments that matter</h2>
+    <p class="lead">Tell us what you have in mind and we will help you find it.</p>
+    <a href="contact.html" class="btn">Get in touch</a>
+  </div></section>
+</main>
+<footer class="footer">
+  <div class="foot-grid">
+    <div><a href="index.html" class="logo" style="opacity:1">AURELLE</a><p>Fine jewelry, made by hand and made to last. Demo website.</p></div>
+    <div><h4>Explore</h4><a href="collections.html">Collections</a><a href="about.html">About</a><a href="bespoke.html">Bespoke</a><a href="contact.html">Contact</a></div>
+    <div><h4>Visit</h4><p>12 Example Street, City</p><p>Mon–Sat, 10:00–19:00</p><p>hello@aurelle.example</p></div>
+  </div>
+  <p class="copy">© 2026 Aurelle. All rights reserved.</p>
+</footer>
+<script src="script.js"></script>
+<script src="site.js"></script>
+</body>
+</html>
